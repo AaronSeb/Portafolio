@@ -1,0 +1,23 @@
+.input_texto{
+    font-size: 14px;
+    width: 90%;
+    margin-top: 18px;
+    margin-left: 15px;
+    padding: 5px;
+    outline: none;
+    border: 0;
+}
+.input_texto:focus ~ .label_flotante{
+    top: 3px;
+    bottom: 15px;
+    left: 20px;
+    font-size: 12px;
+}
+
+
+.input_texto:not(:focus):valid ~ .label_flotante{
+    top: 3px;
+    bottom: 15px;
+    left: 20px;
+    font-size: 12px;
+}

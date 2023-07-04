@@ -1,0 +1,11 @@
+.experiencia_texto{
+    margin-bottom: .5rem;
+}
+
+@media screen and (min-width:1024px) {
+    .experiencia_texto {
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+}
+

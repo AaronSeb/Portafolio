@@ -1,0 +1,10 @@
+.footer_texto {
+    font-weight: 500;
+}
+
+@media screen and (min-width:1024px) {
+    .footer_texto {
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+}

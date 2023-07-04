@@ -1,0 +1,9 @@
+.link_navegacion--contact{
+    display: inline-block;
+}
+@media screen and (min-width:768px) {
+    .link_navegacion--contact{
+        font-size: 1.05rem;
+        font-weight: 700;
+    }
+}

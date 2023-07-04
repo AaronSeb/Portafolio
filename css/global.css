@@ -1,0 +1,9 @@
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+
+:root {
+    --color-primario: #DFE7F2;
+    --color-secundario : #7C92A6;
+    --boton1 :#263640;
+}

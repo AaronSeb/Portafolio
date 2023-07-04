@@ -1,0 +1,15 @@
+@media screen and (min-width:0) {
+    .contacto_imagen{
+        display: none;
+    }
+}
+
+
+
+@media screen and (min-width:1024px) {
+    .contacto_imagen{
+        display: block;
+        width: 50%;
+        max-width: 448px;
+    }
+}

@@ -1,0 +1,13 @@
+.perfil_texto{
+    color: #464646;
+    font-weight: 400;
+    padding: 1.5rem 0;
+}
+
+@media screen and (min-width:1024px) {
+    .perfil_texto {
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+    
+}

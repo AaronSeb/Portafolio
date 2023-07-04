@@ -1,0 +1,12 @@
+/* .contacto_contenedor{
+    display: flex;
+    flex-direction: column;
+    
+} */
+
+@media screen and (min-width:1024px) {
+    .contacto_contenedor p {
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+}

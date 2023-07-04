@@ -1,0 +1,23 @@
+.encabezado {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media screen and (min-width:768px) {
+    .encabezado {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+
+@media screen and (min-width:1024px) {
+    .encabezado {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}

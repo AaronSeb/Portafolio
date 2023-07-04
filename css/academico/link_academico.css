@@ -1,0 +1,21 @@
+.link_academico{
+    text-align: center;
+    background-color: #FFFFFF;
+    max-width: 400px;
+}
+
+@media screen and (min-width:768px) {
+    .link_academico {
+        width: 320px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .link_academico {
+        width: 600px;
+        height: 200px;
+    }
+    .link_academico img{
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,33 @@
+.btn_experiencia{
+    padding: .5rem;
+    margin-right: .5rem;
+    display: inline-flex;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 1rem;
+}
+
+.btn_experiencia:hover{
+    scale: 103%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.btn_experiencia--color1{
+    background-color: var(--boton1);
+    border: solid 2px var(--boton1);
+    color: #ffff;
+}
+.btn_experiencia--color2{
+    color: var(--boton1);
+    border: solid 2px var(--boton1);
+}
+
+
+@media screen and (min-width:1024px) {
+    .btn_experiencia{
+        font-size: 1.25rem;
+        font-weight: 400
+    }
+
+}

@@ -1,0 +1,23 @@
+.experiencia_bloque{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+
+@media screen and (min-width:1024px) {
+    .experiencia_bloque {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1rem;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .experiencia_bloque-alrevez{
+        display: flex;
+        flex-direction: row-reverse;
+        margin-bottom: 1rem;
+        justify-content: center;
+        gap: 2rem;
+    }
+}

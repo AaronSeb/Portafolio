@@ -1,0 +1,38 @@
+.perfil{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media screen and (min-width:0) {
+    .perfil{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .perfil {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .perfil {
+        padding-left: 4rem;
+        padding-right: 4rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 2rem;
+    }
+}

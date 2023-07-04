@@ -1,0 +1,15 @@
+.label_flotante{
+    color: #686868;
+    position: absolute;
+    pointer-events: none;
+    left: 20px;
+    top: 17px;
+    transition: .2s ease all;
+}
+
+@media screen and (min-width:1024px) {
+    .label_flotante {
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+}

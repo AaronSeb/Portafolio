@@ -1,0 +1,13 @@
+.experiencia_titulo{
+    font-weight: 600;
+    margin-top: .25rem;
+    margin-bottom: .5rem;
+}
+
+@media screen and (min-width:1024px) {
+    .experiencia_titulo {
+        font-weight: 600;
+        margin-top: .25rem;
+        font-size: 1.25rem;
+    }
+}

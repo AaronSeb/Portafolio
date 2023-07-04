@@ -1,0 +1,10 @@
+.texto_sobreMi{
+    margin-bottom: 1rem;
+    line-height: normal
+}
+@media screen and (min-width:1024px) {
+    .texto_sobreMi {
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+}

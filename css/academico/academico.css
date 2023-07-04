@@ -1,0 +1,6 @@
+.academico {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-primario);
+}

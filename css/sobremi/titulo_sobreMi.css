@@ -1,0 +1,12 @@
+.titulo_sobreMi{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+@media screen and (min-width:1024px) {
+    .titulo_sobreMi {
+        font-size: 2.5rem;
+        font-weight: 600;
+    }
+}

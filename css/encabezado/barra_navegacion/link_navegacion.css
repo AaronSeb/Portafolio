@@ -1,0 +1,18 @@
+.link_navegacion{
+    display: inline-block;
+
+}
+
+@media screen and (min-width:0) {
+    .link_navegacion{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .link_navegacion{
+        display: inline-block;
+        margin-right: 1.25rem;
+        font-size: 1.05rem;
+    }
+}

@@ -1,0 +1,9 @@
+.contenedor_exp-content{
+    margin-bottom: 1rem;
+}
+@media screen and (min-width:1024px) {
+    .contenedor_exp-content {
+        margin-bottom: 1rem;
+        align-self: center;
+    }
+}

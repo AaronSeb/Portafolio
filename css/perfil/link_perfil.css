@@ -1,0 +1,13 @@
+.link_perfil a{
+    font-weight: 600;
+    font-size: 14px;
+    
+    
+}
+
+@media screen and (min-width:1024px) {
+    .link_perfil a {
+        font-size: 1.25rem;
+        font-weight: 600;
+    }
+}
