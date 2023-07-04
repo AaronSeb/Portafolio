@@ -1,23 +1,38 @@
-.input_texto{
-    font-size: 14px;
-    width: 90%;
-    margin-top: 18px;
-    margin-left: 15px;
-    padding: 5px;
+
+
+  .input_texto {
+    box-sizing: border-box;
+    border-bottom: 1px solid #d6eaff;
+    padding: 1.375rem 0.5rem 0.5rem;
+    height: 3.25rem;
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    padding-left: 20px;
+  }
+  
+  .input_texto::placeholder {
+    visibility: hidden;
+    color: #00000000;
+  }
+  
+  .input_texto:focus {
     outline: none;
-    border: 0;
-}
-.input_texto:focus ~ .label_flotante{
-    top: 3px;
-    bottom: 15px;
-    left: 20px;
-    font-size: 12px;
-}
+  }
+  
+  .label_flotante {
+    position: absolute;
+    top: 1.375rem;
+    left: 0.5rem;
+    font-size: var(--font-size-input-label);
+    transition: all 0.25s;
+  }
 
 
-.input_texto:not(:focus):valid ~ .label_flotante{
-    top: 3px;
-    bottom: 15px;
-    left: 20px;
-    font-size: 12px;
-}
+  
+  .input_texto:not(:placeholder-shown) + .label_flotante,
+  .input_texto:focus + .label_flotante {
+    font-size: 0.875rem;
+    top: 0.25rem;
+    transition: all 0.25s;
+  }

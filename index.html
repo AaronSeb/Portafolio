@@ -49,7 +49,7 @@
     <link rel="stylesheet" href="/css/experiencia/experiencia_texto.css">
     <link rel="stylesheet" href="/css/experiencia/experiencia_titulo_principal.css">
     <link rel="stylesheet" href="/css/experiencia/experiencia_titulo.css">
-    <link rel="stylesheet" href="/css/contacto/btn_experiencia.css">
+    <link rel="stylesheet" href="/css/contacto/btn_formulario.css">
     <link rel="stylesheet" href="/css/contacto/contacto.css">
     <link rel="stylesheet" href="/css/contacto/contacto_contenedor.css">
     <link rel="stylesheet" href="/css/contacto/contacto_formulario.css">
@@ -255,16 +255,24 @@
                 <p>Complete el siguiente formulario y me pondré en contacto con ustedes lo antes posible</p>
                 <form class="contacto_formulario" action="">
                     <div class="contenedor_input">
-                        <input type="text" class="input_texto" required>
-                        <span class="label_flotante">nombre</span>
+                        <input name="nombre" type="text" placeholder="nombre" class="input_texto" required data-tipo="nombre">
+                        <label for="nombre" class="label_flotante">nombre</label>
+                        <span class="input-message-error">Este campo no es valido</span>
                     </div>
                     <div class="contenedor_input">
-                        <input type="text" class="input_texto" required>
-                        <span class="label_flotante">email</span>
+                        <input name="email" type="email" placeholder="email" class="input_texto" required data-tipo="email">
+                        <label for="email" class="label_flotante">email</label>
+                        <span class="input-message-error">Este campo no es valido</span>
                     </div>
                     <div class="contenedor_input">
-                        <input type="text" class="input_texto" required>
-                        <span class="label_flotante">asunto</span>
+                        <input name="telefono" type="text" placeholder="telefono" class="input_texto" pattern="\d{9}" maxlength="9" required data-tipo="telefono">
+                        <label for="telefono" class="label_flotante">telefono</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="contenedor_input">
+                        <input name="asunto" type="text" placeholder="asunto" class="input_texto" required data-tipo="asunto">
+                        <label for="asunto" class="label_flotante">asunto</label>
+                        <span class="input-message-error">Este campo no es valido</span>
                     </div>
                     <textarea name="" id="" cols="30" rows="10" placeholder="mensaje"></textarea><br>
                     <button class="btn_experiencia btn_experiencia--color1">Enviar mensaje</button>
@@ -276,5 +284,6 @@
         <p class="footer_texto">Desarrollado por Aaron</p>
         <p class="footer_texto">2023</p>
     </footer>
+    <script type="module" src="/js/apps.js"></script>
 </body>
 </html>
