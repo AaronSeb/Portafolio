@@ -281,10 +281,10 @@
                 <legend class="titulo_legend_contacto">Contacto</legend>
                 <p>¿Quieres contactarme?</p>
                 <p>Complete el siguiente formulario y me pondré en contacto con ustedes lo antes posible</p>
-                <form class="contacto_formulario" action="">
+                <form class="contacto_formulario" action="https://formsubmit.co/aaaron1502@gmail.com" method="POST">
                     <div class="contenedor_input">
-                        <input name="nombre" type="text" placeholder="nombre" class="input_texto" required data-tipo="nombre">
-                        <label for="nombre" class="label_flotante">nombre</label>
+                        <input name="name" type="text" placeholder="name" class="input_texto" required data-tipo="nombre">
+                        <label for="name" class="label_flotante">nombre</label>
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
                     <div class="contenedor_input">
@@ -298,12 +298,14 @@
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
                     <div class="contenedor_input">
-                        <input name="asunto" type="text" placeholder="asunto" class="input_texto" required data-tipo="asunto">
-                        <label for="asunto" class="label_flotante">asunto</label>
+                        <input name="subject" type="text" placeholder="asunto" class="input_texto" required data-tipo="asunto">
+                        <label for="subject" class="label_flotante">asunto</label>
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
-                    <textarea name="" id="" cols="30" rows="10" placeholder="mensaje"></textarea><br>
+                    <textarea name="comments" id="" cols="30" rows="10" placeholder="mensaje"></textarea><br>
                     <button class="btn_experiencia btn_experiencia--color1">Enviar mensaje</button>
+                    <input type="hidden" name="_next" value="https://portafolio-ivory-delta.vercel.app/">
+                    <input type="hidden" name="_captcha" value="false">
                 </form>
             </div>
         </section>
